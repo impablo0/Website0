@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Progetti</title>
+</head>
+    <header>
+        <div class="header-left">
+            <h1 class="title">Home</h1>
+        </div>
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="progetti.html">Progetti</a></li>
+                <li><a href="chisiamo.html">Chi siamo</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <button class="btn" id="loginBtn">Login</button>
+            <button class="btn" id="signupBtn">Signup</button>
+        </div>
+    </header>
+    <div id="login-signup-Modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="loginForm" class="menu-column">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="text" placeholder="Username" id="username">
+                    <input type="password" placeholder="Password" id="password">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+    
+            <div id="signupForm" class="menu-column" style="display: none;">
+                <h2>Signup</h2>
+                <form id="signupForm">
+                    <input type="text" placeholder="Username" id="username">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="password" placeholder="Password" id="password">
+                    <button type="submit">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>   
+    <div class="footer-container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</body>
+</html>
